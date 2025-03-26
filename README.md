@@ -11,3 +11,4 @@ train 一版本的模型但發現train壞掉了
 [phishing-detector 2.0](https://github.com/yun0414/phishing-detector/tree/main)
 功能更新：
 引入線上的釣魚網址資料集，轉換為csv檔案，透過flask去創建一個port專門讀取此csv檔案，再將檔案內的釣魚網址傳入進contents.js中的phishingURLs作為讀取的資料，如果釣魚網址出現在信件標題也會被標示出來
+![image](https://hackmd.io/_uploads/HkHIXsWTke.png)
