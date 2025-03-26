@@ -12,7 +12,7 @@ def load_phishing_urls():
         reader = csv.reader(file)
         next(reader)  # Skip header if present
         for row in reader:
-            phishing_urls.append(row[1].strip())  # 假設網址在第二欄
+            phishing_urls.append(row[1].strip())
     return phishing_urls
 
 @app.route('/phishing-urls', methods=['GET'])
