@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "釣魚信件過濾擴充工具",
+  "version": "1.0",
+  "icons": {
+    "16": "icons/128fish.png",
+    "128": "icons/128fish.png"
+  },
+  "permissions": ["scripting", "activeTab", "tabs", "storage"],
+  "host_permissions": ["https://mail.google.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/128fish.png",
+      "48": "icons/128fish.png",
+      "128": "icons/128fish.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["content.js"]
+    }
+  ], 
+  "web_accessible_resources": [
+        {
+            "resources": ["assets/phishing_urls.csv"],
+            "matches": ["<all_urls>"]
+        }
+  ]
+}
