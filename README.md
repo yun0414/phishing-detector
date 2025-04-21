@@ -34,3 +34,13 @@ train了一版Autoencoder去區分是否為釣魚網址
 2025/04/21
 
 ［進度更新］把目前現有的model與google extension的插件做結合，但尚未實作完成
+
+## Reference
+Large Language Model Lateral Spear Phishing: A Comparative Study in Large-Scale Organizational Settings
+https://arxiv.org/pdf/2401.09727
+An Explainable Transformer-based Model for Phishing Email Detection: A Large Language Model Approach
+https://arxiv.org/pdf/2402.13871
+基于密度与距离的钓鱼邮件检测方法
+https://journal.bjut.edu.cn/bjgydxxb/cn/article/pdf/preview/10.11936/bjutxb2017110027.pdf
+Analysis and prevention of AI-based phishing email attacks
+https://arxiv.org/pdf/2405.05435
