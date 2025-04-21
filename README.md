@@ -18,14 +18,14 @@ train 一版本的模型但發現train壞掉了
 
 ![image](https://hackmd.io/_uploads/HkHIXsWTke.png)
 
-2025/04/10
+2025/04/11
 
 ［進度更新］model與資料集部分，尚未進入到插件串接的部分
 篩選出一個全為釣魚網址的資料集phishing_urls.csv檔案
 train了一版OneClassSVM去區分是否為釣魚網址
 結果：比上一版利用隨機森林train的部分結果還要好，但還是較為無法偵測亂數產生的網址
 
-2025/04/16
+2025/04/17
 
 ［進度更新］model部分
 train了一版Autoencoder去區分是否為釣魚網址
