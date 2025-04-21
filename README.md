@@ -30,3 +30,7 @@ train了一版OneClassSVM去區分是否為釣魚網址
 ［進度更新］model部分
 train了一版Autoencoder去區分是否為釣魚網址
 結果：比OneClassSVM還要更好 讚的
+
+2025/04/21
+
+［進度更新］把目前現有的model與google extension的插件做結合，但尚未實作完成
